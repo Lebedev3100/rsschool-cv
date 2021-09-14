@@ -12,9 +12,9 @@
 + Goal: study HTML, CSS, JavaScript, JS Framework (React) and become a front-end developer.
 + My strengths:
     + Hardworking
-    + Fast learning
-    + Creativity
-    + Patience
+    + Fast learner
+    + Creative
+    + Patiet
 
 ### Skills
 
@@ -56,3 +56,15 @@ function isPalindrome(x) {
 ### Experience
 
 Non-commercial
+
+### Education
+
++ CCNA 7. Introduction to Networks
++ YouTube Lessons [IT & Freelance] (https://www.youtube.com/channel/UCedskVwIKiZJsO8XdJdLKnA)
+
+### English language
+
++ Listening: **&middot;&middot;&middot;&middot;**
++ Reading: **&middot;&middot;&middot;**
++ Speaking: **&middot;&middot;&middot;**
++ Overall: B1/B2
