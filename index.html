@@ -6,8 +6,10 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>CV</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
         <link rel="icon" type="image" href="https://www.lingvaflavor.com/wp-content/uploads/2016/10/mzl.ljwddsow.png">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
     </head>
 <body>
     <header>
@@ -123,7 +125,7 @@
                 <h3 class="article-header">Example of my code</h3>
             </article>
             <div>
-                <pre><code>
+                <pre><code class="language-javascript">
 function isPalindrome(x) {
     var x = x.replace(/[^a-zA-Z0-9]+/gi, '').toLowerCase();
         return x == x.split('').reverse().join('');
@@ -158,7 +160,7 @@ function isPalindrome(x) {
             <article>
                 <h3 class="article-header">Education</h3>
             </article>
-            <div class="info-edu">
+            <div class="info">
                 <ul>
                     <li>CCNA 7. Introduction to Networks</li>
                     <li>YouTube Lessons <a href="https://www.youtube.com/channel/UCedskVwIKiZJsO8XdJdLKnA" target="_blank">[IT & Freelance]</a></li>
@@ -200,8 +202,10 @@ function isPalindrome(x) {
                     </div>
                     </li>
                 </ul>
-                Overall: B1/B2
             </div>
+        <article> 
+            <h3 class="language">Overall: B1/B2</h3>
+        </article>
         </section>
     </main>
     <footer>
@@ -211,7 +215,5 @@ function isPalindrome(x) {
             <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS School"></a>
         </div>
     </footer>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
     </body>
 </html>
